@@ -30,9 +30,11 @@
   flex: 1;
   text-align: center;
 }
+
 .items .item:first-child {
   text-align: left;
 }
+
 .items .item:last-child {
   text-align: right;
 }
@@ -70,9 +72,11 @@
   .camera-header {
     --header-height: var(--header-height-landscape);
   }
+
   .camera-footer {
     --footer-height: var(--footer-height-landscape);
   }
+
   .camera-footer .shutter {
     --shutter-size: 4em;
   }
@@ -95,7 +99,7 @@ video {
 }
 
 .pick-image {
-  display: flex;
+  display: none;
   align-items: center;
   position: absolute;
   left: var(--margin-size-footer);
