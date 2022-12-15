@@ -189,6 +189,7 @@ video {
 }
 
 .no-device label {
+  display: none;
   cursor: pointer;
   background: #fff;
   border-radius: 6px;
